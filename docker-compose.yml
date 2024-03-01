@@ -1,0 +1,46 @@
+version: "3.8"
+
+services:
+  client:
+    container_name: hobbyhub-frontend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - mern-app
+    env_file:
+      - .env
+
+  server:
+    container_name: hobbyhub-backend
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    networks:
+      - mern-app
+    depends_on:
+      - mongo
+    env_file:
+      - .env
+
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    networks:
+      - mern-app
+    volumes:
+      - mongo-data:/data/db
+    env_file:
+      - .env
+
+networks:
+  mern-app:
+    driver: bridge
+
+volumes:
+  mongo-data:
