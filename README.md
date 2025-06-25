@@ -1,7 +1,7 @@
 <a id="readme-top"></a>
 
 <div align="center">
-  <a href="https://github.com/">
+  <a href="https://github.com/michelle-loi/HobbyHub">
     <img src="docs/logo.png" alt="Logo" height="100">
   </a>
 
@@ -9,7 +9,7 @@
   <p align="left">
       HobbyHub is a social media platform that combines community forums and a dedicated marketplace for hobbyists. Users can join or create hobby-based groups to discuss, share content, and connect with others, while also buying, selling, and trading related items—all in one place.
   </p>
-  <a href="https://github.com/"><strong>Explore the docs »</strong></a>
+  <a href="https://github.com/michelle-loi/HobbyHub"><strong>Explore the docs »</strong></a>
   <br/>
   <br/>
   <p>
@@ -27,6 +27,9 @@
         <ul>
           <li><a href="#built-with">Built With</a></li>
         </ul>
+      </li>
+      <li>
+        <a href="#video-demo">Video Demo</a>
       </li>
       <li>
         <a href="#getting-started">Getting Started</a>
@@ -59,6 +62,15 @@
 - [![Node.js][Node.js]][Node-url]
 - [![Express.js][Express.js]][Express-url]
 - [![MongoDB][MongoDB]][MongoDB-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- DEMO -->
+## Video Demo
+
+Curious about the project? Check out the demo video below:
+
+[![HobbyHub Demo](http://img.youtube.com/vi/gkAzxe4Fj9I/0.jpg)](https://youtu.be/gkAzxe4Fj9I)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
